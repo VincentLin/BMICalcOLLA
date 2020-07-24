@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D2CC2F1B24CB27BC00CCAA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC2F1A24CB27BC00CCAA58 /* AppDelegate.swift */; };
 		D2CC2F1D24CB27BC00CCAA58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC2F1C24CB27BC00CCAA58 /* SceneDelegate.swift */; };
-		D2CC2F1F24CB27BC00CCAA58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC2F1E24CB27BC00CCAA58 /* ViewController.swift */; };
 		D2CC2F2224CB27BC00CCAA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CC2F2024CB27BC00CCAA58 /* Main.storyboard */; };
 		D2CC2F2424CB27C100CCAA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CC2F2324CB27C100CCAA58 /* Assets.xcassets */; };
 		D2CC2F2724CB27C100CCAA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CC2F2524CB27C100CCAA58 /* LaunchScreen.storyboard */; };
+		D2EDEEC724CB350F005A696D /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEEC624CB350F005A696D /* OrderViewController.swift */; };
+		D2EDEEC924CB352F005A696D /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEEC824CB352F005A696D /* BMIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D2CC2F1724CB27BC00CCAA58 /* BMICalcOLLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalcOLLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CC2F1A24CB27BC00CCAA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CC2F1C24CB27BC00CCAA58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2CC2F1E24CB27BC00CCAA58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2CC2F2124CB27BC00CCAA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2CC2F2324CB27C100CCAA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2CC2F2624CB27C100CCAA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2CC2F2824CB27C100CCAA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDEEC624CB350F005A696D /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		D2EDEEC824CB352F005A696D /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				D2CC2F1A24CB27BC00CCAA58 /* AppDelegate.swift */,
 				D2CC2F1C24CB27BC00CCAA58 /* SceneDelegate.swift */,
-				D2CC2F1E24CB27BC00CCAA58 /* ViewController.swift */,
+				D2EDEEC624CB350F005A696D /* OrderViewController.swift */,
+				D2EDEEC824CB352F005A696D /* BMIViewController.swift */,
 				D2CC2F2024CB27BC00CCAA58 /* Main.storyboard */,
 				D2CC2F2324CB27C100CCAA58 /* Assets.xcassets */,
 				D2CC2F2524CB27C100CCAA58 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CC2F1F24CB27BC00CCAA58 /* ViewController.swift in Sources */,
 				D2CC2F1B24CB27BC00CCAA58 /* AppDelegate.swift in Sources */,
+				D2EDEEC924CB352F005A696D /* BMIViewController.swift in Sources */,
 				D2CC2F1D24CB27BC00CCAA58 /* SceneDelegate.swift in Sources */,
+				D2EDEEC724CB350F005A696D /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCLZT97BSV;
 				INFOPLIST_FILE = BMICalcOLLA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCLZT97BSV;
 				INFOPLIST_FILE = BMICalcOLLA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
